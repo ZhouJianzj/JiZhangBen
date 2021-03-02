@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body bgcolor="darkslategray">
+		<br><br><br><br><br><br>
+		<form action="https://www.baidu.com" method="get">
+			<table align="center" >
+				<tr>
+					<td>姓名：</td>
+					<td><input type="text"  name="userName" id="name"  /></td>
+					<td><span style="color: red;font-size: small;" id="nameSpan">
+						
+					</span></td>
+				</tr>
+				<tr>
+					<td>性别：</td>
+					<td><input type="radio"  name="gendx" checked  />男
+					<input type="radio"  name="gendx" />女
+					</td>
+				</tr>
+				<tr>
+					<td>手机号码：</td>
+					<td><input type="text" name="tel" id="tel" /></td>
+					<td><span style="color: red;font-size: small;" id="telSpan">
+						
+					</span></td>
+				</tr>
+				<tr>
+					<td>邮箱地址：</td>
+					<td><input type="text" name="email" id="email" /></td>
+					<td><span style="color: red;font-size: small;" id="emailSpan">
+				
+					</span></td>
+				</tr>
+				<tr>
+					<td><input type="button" id="reset" value="重置" /></td>
+					<td  align="right" ><input type="submit"  id="commit" value="注册"/></td>
+				</tr>
+			</table>
+		</form>
+		<script type="text/javascript">
+			// 姓名的验证
+			document.getElementById("name").onblur = function(){
+				var regExp =  /^[\u4E00-\u9FA5\uf900-\ufa2d·s]{2,20}$/
+				var ok = regExp.test(document.getElementById("name").value)
+				if(ok){
+					document.getElementById("nameSpan").innerHTML = "<font color='aquamarine'>合格</font>"
+				}else{
+					document.getElementById("nameSpan").innerText = "姓名不合法！"
+				}
+				document.getElementById("name").onfocus = function(){
+					document.getElementById("name").innerHTML = ""
+				}
+			}
+			// 性别的单选
+				//设置成radio name的名字一样的时候就可以了
+			// 手机号码的验证
+			document.getElementById("tel").onblur = function(){
+				var regExp = /^1[3|4|5|7|8][0-9]{9}$/
+				var ok = regExp.test(document.getElementById("tel").value)
+				if(ok){
+					document.getElementById("telSpan").innerHTML = "<font color='aquamarine'>合格</font>"
+				}else{
+					document.getElementById("telSpan").innerText = "手机号码验证错误！"
+				}
+				document.getElementById("tel").onfocus = function(){
+					document.getElementById("telSpan").innerHTML = ""
+				}
+			}
+			// 邮箱的验证
+			document.getElementById("email").onblur = function(){
+				var regExp = /^[a-zA-Z0-9_-]+@[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+)+$/
+				var ok = regExp.test(document.getElementById("email").value)
+				if(ok){
+					document.getElementById("emailSpan").innerHTML = "<font color='aquamarine'>合格</font>"
+				}else{
+					document.getElementById("emailSpan").innerText = "邮箱验证失败！"
+				}
+				document.getElementById("email").onfocus = function(){
+					document.getElementById("emailSpan").innerHTML = ""
+				}
+			}
+			// 重置按钮事件
+			document.getElementById("reset").onclick = function(){
+				document.getElementById("name").value = ""
+				document.getElementById("tel").value = ""
+				document.getElementById("email").value = ""
+				document.getElementById("").value = ""
+			}
+		</script>
+	</body>
+</html>
