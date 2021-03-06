@@ -7,15 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1090be2-7def-4c87-b2be-8bcc689a053a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/mangerSystem_war_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql__3_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_23.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/httpRervletRequest_war_exploded/WEB-INF/classes/com/jianzhou/ServletOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/httpRervletRequest_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/httpRervletRequest_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/httpRervletRequest_war_exploded/one.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/httpRervletRequest/com/jianzhou/ServletOne.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mangerSystem/META-INF/mangerSystem.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mangerSystem/com/jianzhou/entity/UserFrm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mangerSystem/com/jianzhou/utils/initJdbc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webBases/com/jianzhou/fourServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webBases/com/jianzhou/oneServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webBases/com/jianzhou/threeServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/webBases/com/jianzhou/twoServlet.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,21 +69,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fristWeb/mangerSystem/web/WEB-INF" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fristWeb/mangerSystem/web/WEB-INF/lib" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.53797466" />
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\ObjectSpace\fristWeb\mangerSystem\web\WEB-INF" />
-      <recent name="C:\ObjectSpace\fristWeb\mangerSystem\web\WEB-INF\libs" />
-      <recent name="C:\ObjectSpace\fristWeb\mangerSystem\web\WEB-INF\lib" />
-      <recent name="C:\ObjectSpace\fristWeb\webBases\web" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\ObjectSpace\fristWeb\mangerSystem\web\WEB-INF\lib" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\ObjectSpace\fristWeb\mangerSystem\web\WEB-INF\lib" />
+      <recent name="C:\ObjectSpace\fristWeb\mangerSystem\web\WEB-INF\libs" />
+      <recent name="C:\ObjectSpace\fristWeb\mangerSystem\web\WEB-INF" />
+      <recent name="C:\ObjectSpace\fristWeb\webBases\web" />
     </key>
   </component>
   <component name="RunManager" selected="Application.initJdbc">
@@ -203,6 +208,7 @@
       <workItem from="1615009115264" duration="5726000" />
       <workItem from="1615020254364" duration="3603000" />
       <workItem from="1615025372586" duration="1912000" />
+      <workItem from="1615039975377" duration="2353000" />
     </task>
     <servers />
   </component>
@@ -251,31 +257,35 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1614954714379" />
-    <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1615026299957">
+    <state x="1153" y="315" key="DetectedRootsChooserDialog" timestamp="1615040817362">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1153" y="315" key="DetectedRootsChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615040817362" />
+    <state x="740" y="264" key="FileChooserDialogImpl" timestamp="1615040815634">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="697" y="241" key="FileChooserDialogImpl/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614864769211" />
-    <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615026299957" />
-    <state width="1107" height="224" key="GridCell.Tab.0.bottom" timestamp="1615031986286">
+    <state x="740" y="264" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1615040815634" />
+    <state width="1877" height="323" key="GridCell.Tab.0.bottom" timestamp="1615042148402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1575" height="279" key="GridCell.Tab.0.bottom/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614865244861" />
-    <state width="1107" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615031986286" />
-    <state width="1107" height="224" key="GridCell.Tab.0.center" timestamp="1615031986286">
+    <state width="1877" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615042148402" />
+    <state width="1877" height="323" key="GridCell.Tab.0.center" timestamp="1615042148402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1575" height="279" key="GridCell.Tab.0.center/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614865244861" />
-    <state width="1107" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615031986286" />
-    <state width="1107" height="224" key="GridCell.Tab.0.left" timestamp="1615031986286">
+    <state width="1877" height="323" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615042148402" />
+    <state width="1877" height="323" key="GridCell.Tab.0.left" timestamp="1615042148402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1575" height="279" key="GridCell.Tab.0.left/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614865244861" />
-    <state width="1107" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615031986286" />
-    <state width="1107" height="224" key="GridCell.Tab.0.right" timestamp="1615031986286">
+    <state width="1877" height="323" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615042148402" />
+    <state width="1877" height="323" key="GridCell.Tab.0.right" timestamp="1615042148402">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1575" height="279" key="GridCell.Tab.0.right/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614865244861" />
-    <state width="1107" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615031986286" />
+    <state width="1877" height="323" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615042148402" />
     <state width="918" height="456" key="GridCell.Tab.1.bottom" timestamp="1615020221786">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -352,11 +362,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1575" height="674" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1614944303010" />
-    <state x="395" y="189" width="1119" height="716" key="SettingsEditor" timestamp="1615026362500">
+    <state x="417" y="189" width="1119" height="716" key="SettingsEditor" timestamp="1615042432637">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="43" y="190" width="1119" height="716" key="SettingsEditor/-1366.243.1366.728/0.0.1920.1040@0.0.1920.1040" timestamp="1614865227788" />
-    <state x="395" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615026362500" />
+    <state x="417" y="189" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1615042432637" />
     <state x="482" y="87" key="new project wizard" timestamp="1615018835818">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
