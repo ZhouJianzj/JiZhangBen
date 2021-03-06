@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="mysql (2)">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../fristWeb/mangerSystem/web/WEB-INF/libs/mysql.jar!/" />
+    </SOURCES>
+  </library>
+</component>

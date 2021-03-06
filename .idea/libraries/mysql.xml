@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="mysql">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../fristWeb/mangerSystem/web/WEB-INF/libs/mysql.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="jar://$PROJECT_DIR$/../fristWeb/mangerSystem/web/WEB-INF/libs/mysql.jar!/" recursive="false" />
+  </library>
+</component>

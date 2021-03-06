@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="演示">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../fristWeb/mangerSystem/web/WEB-INF/演示.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../fristWeb/httpRervletRequest/httpRervletRequest.iml" filepath="$PROJECT_DIR$/../fristWeb/httpRervletRequest/httpRervletRequest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fristWeb/mangerSystem/mangerSystem.iml" filepath="$PROJECT_DIR$/../fristWeb/mangerSystem/mangerSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/../fristWeb/webBases/webBases.iml" filepath="$PROJECT_DIR$/../fristWeb/webBases/webBases.iml" />
     </modules>
   </component>
