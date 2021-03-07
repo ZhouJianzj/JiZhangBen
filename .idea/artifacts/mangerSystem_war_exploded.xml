@@ -1,13 +1,16 @@
 <component name="ArtifactManager">
   <artifact type="exploded-war" name="mangerSystem:war exploded">
-    <output-path>$PROJECT_DIR$/../mangerSystem/out</output-path>
+    <output-path>$PROJECT_DIR$/out/artifacts/mangerSystem_war_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="mangerSystem/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
           <element id="module-output" name="mangerSystem" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="mysql-connector-java-8.0.23" />
+        </element>
       </element>
+      <element id="javaee-facet-resources" facet="mangerSystem/web/Web" />
     </root>
   </artifact>
 </component>
