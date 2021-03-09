@@ -3,7 +3,11 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-
+<!--欢迎页面的设置-->
+    <welcome-file-list>
+        <!-- 使用别名的话需要去掉/例如/user/find去掉为user/find-->
+        <welcome-file>login.html</welcome-file>
+    </welcome-file-list>
 <!--    每一个动态文件都需要配置的-->
 <!--        用户注册-->
     <servlet>
@@ -24,4 +28,26 @@
         <servlet-name>usersFindServlet</servlet-name>
         <url-pattern>/user/find</url-pattern>
     </servlet-mapping>
+
+
+<!--   用户登录 -->
+    <servlet>
+        <servlet-name>userLoginServlet</servlet-name>
+        <servlet-class>com.jianzhou.controller.userLoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userLoginServlet</servlet-name>
+        <url-pattern>/user/login</url-pattern>
+    </servlet-mapping>
+
+<!--    用户删除-->
+    <servlet>
+        <servlet-name>userDeleteServlet</servlet-name>
+        <servlet-class>com.jianzhou.controller.userDeleteServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>userDeleteServlet</servlet-name>
+        <url-pattern>/user/delete</url-pattern>
+    </servlet-mapping>
+
 </web-app>
