@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../fristWeb/JspTextOne/JspTextOne.iml" filepath="$PROJECT_DIR$/../fristWeb/JspTextOne/JspTextOne.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fristWeb/ListenerText/ListenerText.iml" filepath="$PROJECT_DIR$/../fristWeb/ListenerText/ListenerText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fristWed/eYiDengLu/eYiDengLu.iml" filepath="$PROJECT_DIR$/../fristWed/eYiDengLu/eYiDengLu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fristWed/filterText/filterText.iml" filepath="$PROJECT_DIR$/../fristWed/filterText/filterText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../fristWeb/gouWuChe/gouWuChe.iml" filepath="$PROJECT_DIR$/../fristWeb/gouWuChe/gouWuChe.iml" />
       <module fileurl="file://$PROJECT_DIR$/../fristWeb/httpRervletRequest/httpRervletRequest.iml" filepath="$PROJECT_DIR$/../fristWeb/httpRervletRequest/httpRervletRequest.iml" />
       <module fileurl="file://$PROJECT_DIR$/../fristWeb/mangerSystem/mangerSystem.iml" filepath="$PROJECT_DIR$/../fristWeb/mangerSystem/mangerSystem.iml" />
       <module fileurl="file://$PROJECT_DIR$/../fristWeb/webBases/webBases.iml" filepath="$PROJECT_DIR$/../fristWeb/webBases/webBases.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xianShangDingCan/xianShangDingCan.iml" filepath="$PROJECT_DIR$/../xianShangDingCan/xianShangDingCan.iml" />
     </modules>
   </component>
 </project>

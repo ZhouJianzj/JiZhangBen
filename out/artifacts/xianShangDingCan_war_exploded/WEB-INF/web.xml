@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+<!--    欢迎界面-->
+    <welcome-file-list>
+        <welcome-file>Welcome.html</welcome-file>
+    </welcome-file-list>
+<!--    注册类-->
+    <servlet>
+        <servlet-name>zhuCeServlet</servlet-name>
+        <servlet-class>com.zhouJian.controller.zhuCeServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>zhuCeServlet</servlet-name>
+        <url-pattern>/zhuCeServlet</url-pattern>
+    </servlet-mapping>
+
+<!--点餐-->
+    <servlet>
+        <servlet-name>dianCanServlet</servlet-name>
+        <servlet-class>com.zhouJian.controller.dianChanServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>dianCanServlet</servlet-name>
+        <url-pattern>/dianCan</url-pattern>
+    </servlet-mapping>
+</web-app>
