@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/../fristWeb/JspTextOne/JspTextOne.iml" filepath="$PROJECT_DIR$/../fristWeb/JspTextOne/JspTextOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/../fristWeb/ListenerText/ListenerText.iml" filepath="$PROJECT_DIR$/../fristWeb/ListenerText/ListenerText.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../StudentExam/StudentExam.iml" filepath="$PROJECT_DIR$/../StudentExam/StudentExam.iml" />
       <module fileurl="file://$PROJECT_DIR$/../fristWed/eYiDengLu/eYiDengLu.iml" filepath="$PROJECT_DIR$/../fristWed/eYiDengLu/eYiDengLu.iml" />
       <module fileurl="file://$PROJECT_DIR$/../fristWed/filterText/filterText.iml" filepath="$PROJECT_DIR$/../fristWed/filterText/filterText.iml" />
       <module fileurl="file://$PROJECT_DIR$/../fristWeb/gouWuChe/gouWuChe.iml" filepath="$PROJECT_DIR$/../fristWeb/gouWuChe/gouWuChe.iml" />
