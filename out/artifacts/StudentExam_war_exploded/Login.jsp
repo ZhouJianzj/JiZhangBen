@@ -4,7 +4,7 @@
 <head>
     <title>登录界面</title>
 </head>
-<body>
+<body style="background: darkslategray">
                     <br><br><br><br><br>
 <center>
     <%

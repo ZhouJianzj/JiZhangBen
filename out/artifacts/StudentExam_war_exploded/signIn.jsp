@@ -10,7 +10,7 @@
 <head>
     <title>注册不成功页面</title>
 </head>
-<body>
+<body style="background: darkslategray">
 <center>
     <!--        action 里面的地址是动态资源文件的地址-->
     <br><br><br><br>
