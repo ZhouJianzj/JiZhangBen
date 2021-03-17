@@ -73,4 +73,32 @@
         <servlet-name>addAddServlet</servlet-name>
         <url-pattern>/addAdd</url-pattern>
     </servlet-mapping>
+<!--    试题删除查询搜索-->
+<!--发现        -->
+    <servlet>
+        <servlet-name>findQuestionServlet</servlet-name>
+        <servlet-class>com.Jianzhou.controller.findQuestionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>findQuestionServlet</servlet-name>
+        <url-pattern>/find</url-pattern>
+    </servlet-mapping>
+<!--试题的删除-->
+    <servlet>
+        <servlet-name>deleteQuestionServlet</servlet-name>
+        <servlet-class>com.Jianzhou.controller.deleteQuestionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>deleteQuestionServlet</servlet-name>
+        <url-pattern>/deleteQuestion</url-pattern>
+    </servlet-mapping>
+<!--公共的发现-->
+    <servlet>
+        <servlet-name>publicFindQuestionServlet</servlet-name>
+        <servlet-class>com.Jianzhou.controller.publicFindQuestionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>publicFindQuestionServlet</servlet-name>
+        <url-pattern>/publicFind</url-pattern>
+    </servlet-mapping>
 </web-app>

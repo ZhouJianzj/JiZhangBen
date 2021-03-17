@@ -16,7 +16,7 @@
 <%
 
     Integer add = (Integer) request.getAttribute("add");
-    System.out.println(add);
+    System.out.println( "试题注册情况（-1页面加载/0添加失败/1添加成功）：" + add);
     if (add == 1){
 %>
         <center><font color="red">添加成功！</font></center>
