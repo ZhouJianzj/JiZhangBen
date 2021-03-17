@@ -6,32 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1090be2-7def-4c87-b2be-8bcc689a053a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/Jianzhou/test/testOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/DaoHang.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/DaoHang.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/Login.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/Login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/Login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/Login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/Filter/AllFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/Filter/AllFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/controller/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/controller/SignInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/controller/SignInServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/desc" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/desc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/entity/UserFm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/entity/UserFm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/listener/AllListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/listener/AllListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/utils/Jdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/classes/com/Jianzhou/utils/Jdbc.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/signIn.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/signIn.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/signIn.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/StudentExam_war_exploded/signIn.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/Filter/AllFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/Filter/AllFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/controller/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/controller/LoginServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/controller/SignInServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/controller/SignInServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/dao/UserDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/desc" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/desc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/entity/UserFm.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/entity/UserFm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/listener/AllListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/listener/AllListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/utils/Jdbc.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentExam/com/Jianzhou/utils/Jdbc.class" afterDir="false" />
-    </list>
+    <list default="true" id="c1090be2-7def-4c87-b2be-8bcc689a053a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -427,11 +402,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -485,6 +455,7 @@
       <workItem from="1615733068235" duration="634000" />
       <workItem from="1615796590215" duration="17351000" />
       <workItem from="1615884888951" duration="9331000" />
+      <workItem from="1615958617586" duration="1412000" />
     </task>
     <servers />
   </component>
@@ -687,6 +658,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="751" y="266" width="903" height="488" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040@0.0.1920.1040" timestamp="1615462862851" />
+    <state x="928" y="516" key="git4idea.merge.GitPullDialog" timestamp="1615964586025">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="928" y="516" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1615964586025" />
     <state x="449" y="58" key="new project wizard" timestamp="1615887297080">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
