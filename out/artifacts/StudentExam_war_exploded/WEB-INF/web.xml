@@ -101,4 +101,32 @@
         <servlet-name>publicFindQuestionServlet</servlet-name>
         <url-pattern>/publicFind</url-pattern>
     </servlet-mapping>
+<!--试题的修改-->
+    <servlet>
+        <servlet-name>alterQuestionServlet</servlet-name>
+        <servlet-class>com.Jianzhou.controller.alterQuestionServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>alterQuestionServlet</servlet-name>
+        <url-pattern>/alterQuestion</url-pattern>
+    </servlet-mapping>
+<!--查找试题Two-->
+    <servlet>
+        <servlet-name>findQuestionTwoServlet</servlet-name>
+        <servlet-class>com.Jianzhou.controller.findQuestionTwoServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>findQuestionTwoServlet</servlet-name>
+        <url-pattern>/findTwo</url-pattern>
+    </servlet-mapping>
+<!--    试题的收索-->
+    <servlet>
+        <servlet-name>questionSearchServlet</servlet-name>
+        <servlet-class>com.Jianzhou.controller.questionSearchServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>questionSearchServlet</servlet-name>
+        <url-pattern>/questionSearch</url-pattern>
+    </servlet-mapping>
 </web-app>

@@ -14,16 +14,17 @@
 </head>
 <body>
 <br><br><br><br>
-
-<form action="" method="get" >
+<%--搜索栏 --%>
+<form action="/myWeb/questionSearch" method="get" >
     <table align="center" >
         <tr>
-            <td><input type="text" name="titleSearch"   /></td>
+            <td><input type="text" name="title"   /></td>
             <td><input type="submit"  value="搜索"/></td>
         </tr>
     </table>
 </form>
 <br>
+<%--删除成功与否的展示--%>
 <%
     Integer delete = (Integer) session.getAttribute("delete");
     System.out.println("删除操作(-1页面加载/1删除成功/0删除失败)" + delete);
@@ -37,19 +38,7 @@
 <%
     }
 %>
-<%
-    Integer alter = (Integer) session.getAttribute("alter");
-    System.out.println("修改(-1页面加载/0修改失败/1修改成功)" + alter);
-    if (alter == 0){
-%>
-<center><font color="red">修改失败!</font></center>
-<%
-    }else if (alter == 1){
-%>
-<center><font color="red">修改成功!</font></center>
-<%
-    }
-%>
+
 <table border="" align="center">
     <tr>
         <th>编号</th>
@@ -61,9 +50,10 @@
         <th>答案</th>
         <th colspan="2">操作</th>
     </tr>
+<%--    获取find传递过来的数据，是一个集合形式的--%>
     <%
-        List question = (List) request.getAttribute("list");
-        Iterator iterator = question.iterator();
+        List list = (List) session.getAttribute("list");
+        Iterator iterator = list.iterator();
         while (iterator.hasNext()){
             QuestionFrm questionFrm = (QuestionFrm) iterator.next();
             int id = questionFrm.getId();
@@ -84,7 +74,7 @@
         <td><%=optionD%></td>
         <td><%=rightAnswer%></td>
         <td><a href="/myWeb/deleteQuestion?id=<%=id%>" ><input type="button" value="删除" ></a></td>
-        <td><a href="" ><input type="button" value="修改" ></a></td>
+        <td><a href="/myWeb/findTwo?id=<%=id%>" ><input type="button" value="修改" ></a></td>
     </tr>
     <%
         }

@@ -55,10 +55,10 @@
         <tr>
             <td>正确答案</td>
             <td>
-                <input type="radio" name="rightOption" value="a"> A
-                <input type="radio" name="rightOption" value="b"> B
-                <input type="radio" name="rightOption" value="c"> C
-                <input type="radio" name="rightOption" value="d"> D
+                <input type="radio" name="rightOption" value="A"> A
+                <input type="radio" name="rightOption" value="B"> B
+                <input type="radio" name="rightOption" value="C"> C
+                <input type="radio" name="rightOption" value="D"> D
             </td>
         </tr>
         <tr>
