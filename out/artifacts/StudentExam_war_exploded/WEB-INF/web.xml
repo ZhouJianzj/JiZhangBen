@@ -129,4 +129,32 @@
         <servlet-name>questionSearchServlet</servlet-name>
         <url-pattern>/questionSearch</url-pattern>
     </servlet-mapping>
+<!--学生考试服务-->
+    <servlet>
+        <servlet-name>startTestServlet</servlet-name>
+        <servlet-class>com.Jianzhou.controller.startTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>startTestServlet</servlet-name>
+        <url-pattern>/startTest</url-pattern>
+    </servlet-mapping>
+<!--left界面的实现跳转赋初始值-->
+    <servlet>
+        <servlet-name>leftClickStartTestServlet</servlet-name>
+        <servlet-class>com.Jianzhou.controller.leftClickStartTestServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>leftClickStartTestServlet</servlet-name>
+        <url-pattern>/clickStart</url-pattern>
+    </servlet-mapping>
+<!-- 算分-->
+    <servlet>
+        <servlet-name>countPointsServlet</servlet-name>
+        <servlet-class>com.Jianzhou.controller.countPointsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>countPointsServlet</servlet-name>
+        <url-pattern>/countPoints</url-pattern>
+    </servlet-mapping>
 </web-app>
