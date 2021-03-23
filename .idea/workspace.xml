@@ -404,11 +404,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -473,6 +468,8 @@
       <workItem from="1616313485717" duration="745000" />
       <workItem from="1616378284488" duration="50000" />
       <workItem from="1616378661693" duration="1064000" />
+      <workItem from="1616492165823" duration="196000" />
+      <workItem from="1616502640520" duration="721000" />
     </task>
     <servers />
   </component>
